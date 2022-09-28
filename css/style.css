@@ -1,0 +1,145 @@
+/* цвет основного текста var(--title-text-color) rgba(33, 33, 33, 1);*/
+
+/* вторичный цвет rgba(117, 117, 117, 1) */
+
+/* белый цвет rgba(255, 255, 255, 1) */
+
+/* акцент на синий rgba(33, 150, 243, 1)*/
+
+/* цвет фона Героя и Футера rgba(47, 48, 58, 1)  */
+
+/* вторичный цвет фона rgba(245, 244, 250, 1) */
+
+/* основной фон  #F5F5F5 */
+
+:root {
+  --primery-text-color: rgba(33, 33, 33, 1);
+  --title-text-color: rgba(33, 33, 33, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+  --primary-white-color: rgba(255, 255, 255, 1);
+  --secondary-white-color: rgba(245, 244, 250, 1);
+  --background-black-color: rgba(47, 48, 58, 1);
+;
+}
+body {
+  color: var(--primery-text-color);
+  background-color: var(--primary-white-color);
+}
+/* Header */
+
+.page-header {
+  background-color: var(--primary-white-color);
+  width: 1600px;
+  height: 120px;
+}
+.logo-link {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--title-text-color);
+}
+
+.logo-link:hover,
+.logo-link:active,
+.logo-header:hover,
+.logo-header:active,
+.link:hover,
+.link:active {
+  color: var(--accent-color);
+}
+.site-nave {
+  color: var(--title-text-color);
+}
+
+.link {
+  color: var(--title-text-color);
+}
+
+.list {
+  color: var(--title-text-color);
+}
+
+.aside-header {
+  color: var(--title-text-color);
+}
+.hero {
+  background-color: var(--background-black-color);
+  width: 1600px;
+  height: 600px;
+}
+
+/* Герой */
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  width: 216px;
+  height: 50px;
+}
+.button-primary:hover,
+.button-primary:active {
+  color: var(--primary-white-color);
+}
+
+/* Переваги */
+
+.section {
+  color: var(--secondary-text-color);
+}
+.section-title {
+color: var(--title-text-color);
+}
+
+.feature {
+  font-size: 0px;
+}
+.feature-list {
+}
+
+.title {
+  color: var(--title-text-color);
+}
+
+/* Чим ми займаємося */
+
+.work-list {
+
+}
+
+/* Наша команда */
+
+.team-list {
+background-color: var(--secondary-white-color);
+}
+
+/* Футер */
+
+.footer {
+background-color: var(--background-black-color);
+width: 1600px; height: 252px;
+}
+
+.logo-footer{ 
+    color: var(--primary-white-color);
+}
+
+.logo-footer:hover,
+.logo-footer:active {
+  color: var(--accent-color);
+}
+.addres {
+
+}
+.link-addres{
+    color: var(--primary-white-color);
+}
+
+.link-footer{
+color: var(--secondary-text-color);
+}
