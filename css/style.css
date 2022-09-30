@@ -115,6 +115,7 @@ body {
 .button-primary:focus {
   color: var(--primary-white-color);
   background-color: rgb(66, 135, 245);
+  cursor: pointer;
 }
 
 .secondary-button {
@@ -123,6 +124,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 }
 .secondary-button:hover,
 .secondary-button:focus {
